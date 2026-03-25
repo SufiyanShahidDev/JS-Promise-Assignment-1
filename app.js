@@ -4,9 +4,9 @@ const delayValue = () => {
         if(typeof ms !== "number" || ms < 0){
             return reject("Invalid delay time")
         }else{
-            // setTimeout(() => {
-
-            // })
+            setTimeout(() => {
+                
+            })
         }
     }
 } 
