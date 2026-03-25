@@ -12,3 +12,6 @@ const delayValue = (ms, value) => {
 };
 
 delayValue(3000, "Promise Resolved")
+// .then((res) => {
+//     console.log(res);
+// })
