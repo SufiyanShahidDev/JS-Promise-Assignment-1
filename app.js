@@ -6,7 +6,7 @@ const delayValue = (ms, value) => {
         }else{
             setTimeout(() => {
                 resolve(value);
-            })
+            }, ms);
         }
     }
 } 
