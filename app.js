@@ -8,5 +8,5 @@ const delayValue = (ms, value) => {
                 resolve(value);
             }, ms);
         }
-    }
-} 
+    };
+}; 
