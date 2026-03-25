@@ -17,4 +17,4 @@ delayValue(3000, "Promise Resolved")
     })
     .catch((err) => {
         console.log(err);
-    })
+    });
