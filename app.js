@@ -12,9 +12,9 @@ const delayValue = (ms, value) => {
 };
 
 delayValue(3000, "Promise Resolved")
-.then((res) => {
-    console.log(res);
-})
-.catch((err) => {
-    console.log(err); 
-})
+    .then((res) => {
+        console.log("Resolved", res);
+    })
+    .catch((err) => {
+        console.log(err);
+    })
