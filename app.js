@@ -9,4 +9,6 @@ const delayValue = (ms, value) => {
             }, ms);
         }
     };
-}; 
+};
+
+// delayValue(3000, "Promise Resolved")
